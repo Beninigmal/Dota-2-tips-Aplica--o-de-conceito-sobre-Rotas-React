@@ -1,0 +1,112 @@
+section {
+    height: 100vh;
+    z-index: 0;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-image: url(../../img/shaman.png);
+    position: absolute;
+    background-size: cover;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.support .btn-pos {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90vw;
+}
+
+.support h1 {
+    font-size: 60px;
+    margin-bottom: -30px;
+}
+
+.support p {
+    max-width: 80%;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 3px 6px 10px 3px rgba(0, 0, 0, .8);
+    background-color: rgb(0, 0, 0);
+    max-width: 60%;
+    height: 250px;
+    opacity: .6;
+    border-radius: 25px;
+    margin-top: 25px;
+    color: #ffffff;
+}
+
+.sup-list {
+    margin-top: 25px;
+    height: 250px;
+    width: 60%;
+}
+
+.sup-comp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sup-comp li {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.sup-comp :nth-child(1) {
+    height: 250px;
+    width: 29%;
+    gap: 2%;
+    background-color: #000;
+    border-radius: 15px;
+    box-shadow: 3px 6px 10px 3px rgba(0, 0, 0, .8);
+    color: #fff;
+    opacity: .9;
+    background-image: url(../../img/lion.png);
+    background-size: cover;
+    background-position: center 0;
+}
+
+.sup-comp :nth-child(2) {
+    height: 250px;
+    width: 29%;
+    gap: 2%;
+    background-color: #000;
+    border-radius: 15px;
+    box-shadow: 3px 6px 10px 3px rgba(0, 0, 0, .8);
+    color: #fff;
+    opacity: .9;
+    background-image: url(../../img/pudge.jpg);
+    background-size: cover;
+    background-position: center 0;
+}
+
+.sup-comp :nth-child(3) {
+    height: 250px;
+    width: 29%;
+    gap: 2%;
+    background-color: #000;
+    border-radius: 15px;
+    box-shadow: 3px 6px 10px 3px rgba(0, 0, 0, .8);
+    color: #fff;
+    opacity: .9;
+    background-image: url(../../img/chen.jpg);
+    background-size: cover;
+    background-position: center 0;
+}

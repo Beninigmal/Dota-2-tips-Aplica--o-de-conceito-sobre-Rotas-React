@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap');
+header {
+    font-family: 'Red Rose', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 41vw;
+    color: #fff;
+    z-index: 1;
+    background-color: #60a3bc;
+    height: 70px;
+    width: 250px;
+    border-radius: 12px;
+    opacity: .9;
+}
+
+.dota {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dota img {
+    margin: 5px 10px;
+    height: 40px;
+    width: 40px;
+}
