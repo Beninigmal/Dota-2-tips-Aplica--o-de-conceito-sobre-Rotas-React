@@ -92,10 +92,10 @@ section {
     opacity: .7;
 }
 
-.roles li:nth-child(1):hover {
+.roles .kotl:hover {
     filter: grayscale(0);
 }
 
-.roles li:nth-child(2):hover {
+.roles .pa:hover {
     filter: grayscale(0);
 }
