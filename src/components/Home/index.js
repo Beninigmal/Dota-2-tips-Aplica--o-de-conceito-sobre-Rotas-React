@@ -1,10 +1,12 @@
 import React from 'react';
 import '../Home/style.css';
 import { Link } from 'react-router-dom';
+import Topbar from '../TopBar';
 
 function Home() {
     return (
         <section>
+            <Topbar />
             <ul className="roles">
                 <Link to="/supp">
                     <li className="kotl">

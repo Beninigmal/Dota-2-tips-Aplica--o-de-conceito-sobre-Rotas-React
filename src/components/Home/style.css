@@ -34,7 +34,7 @@ section {
     font-size: 50px;
 }
 
-.roles li .content-sup {
+.roles .kotl .content-sup {
     position: absolute;
     bottom: -100%;
     left: 0;
@@ -45,7 +45,7 @@ section {
     opacity: 0;
 }
 
-.roles li .content-core {
+.roles .pa .content-core {
     position: absolute;
     bottom: -100%;
     left: 0;
@@ -78,14 +78,14 @@ section {
     width: 80%;
 }
 
-.roles li:hover .content-sup {
+.roles .kotl:hover .content-sup {
     bottom: 0;
     transition: 0.5s;
     transition-delay: 0.1s;
     opacity: 0.7;
 }
 
-.roles li:hover .content-core {
+.roles .pa:hover .content-core {
     bottom: 0;
     transition: 0.5s;
     transition-delay: 0.1s;
