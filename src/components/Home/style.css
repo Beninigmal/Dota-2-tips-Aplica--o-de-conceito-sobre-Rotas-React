@@ -30,11 +30,11 @@ section {
     overflow: hidden;
 }
 
-.content-sup h1 {
+.roles h1 {
     font-size: 50px;
 }
 
-.roles li .content-sup {
+.roles .kotl .content-sup {
     position: absolute;
     bottom: -100%;
     left: 0;
@@ -45,7 +45,7 @@ section {
     opacity: 0;
 }
 
-.roles .li .content-core {
+.roles .pa .content-core {
     position: absolute;
     bottom: -100%;
     left: 0;
