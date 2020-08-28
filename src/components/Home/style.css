@@ -27,7 +27,7 @@ section {
     transition: 0.5s;
     text-align: center;
     cursor: pointer;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .roles h1 {
@@ -89,7 +89,7 @@ section {
     bottom: 0;
     transition: 0.5s;
     transition-delay: 0.1s;
-    opacity: .7;
+    opacity: 0.7;
 }
 
 .roles .kotl:hover {
