@@ -39,10 +39,10 @@ section {
     bottom: -100%;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0, 0.8);
+    background: rgba(0,0,0,0.8);
     box-sizing: border-box;
     color: #ffffff;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .roles .pa .content-core {
@@ -50,10 +50,10 @@ section {
     bottom: -100%;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0, 0.8);
+    background: rgba(0,0,0,0.8);
     box-sizing: border-box;
     color: #ffffff;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .roles .kotl {
